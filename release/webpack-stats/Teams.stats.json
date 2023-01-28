@@ -1,0 +1,2950 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "f76bf08230f886f70b1a",
+  "time": 4751,
+  "builtAt": 1674918367025,
+  "publicPath": "",
+  "outputPath": "D:\\host\\MySPFx\\Teams\\dist",
+  "assetsByChunkName": {
+    "sp-fx-teams-tab-web-part": "sp-fx-teams-tab-web-part_d3fd351710d135d10c94.js"
+  },
+  "assets": [
+    {
+      "name": "93df0ba1-9407-4b9b-b8b7-a764f4447cf0.manifest.json",
+      "size": 2140,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "SpFxTeamsTabWebPartStrings_en-us_ab0373b2a20479e31e6fa297c55f351c.js",
+      "size": 528,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "sp-fx-teams-tab-web-part_d3fd351710d135d10c94.js",
+      "size": 11678,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "sp-fx-teams-tab-web-part"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "welcome-dark_bc81978d2f17e05985eed81d09531178.png",
+      "size": 12545,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "welcome-light_a2dcb0d64c8d6e80cf49f607eeb17723.png",
+      "size": 12816,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "sp-fx-teams-tab-web-part": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "sp-fx-teams-tab-web-part_d3fd351710d135d10c94.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "sp-fx-teams-tab-web-part": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "sp-fx-teams-tab-web-part_d3fd351710d135d10c94.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 25638,
+      "names": [
+        "sp-fx-teams-tab-web-part"
+      ],
+      "files": [
+        "sp-fx-teams-tab-web-part_d3fd351710d135d10c94.js"
+      ],
+      "hash": "41793f7b99a69d738b34",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "26ea",
+          "identifier": "external \"@microsoft/sp-property-pane\"",
+          "name": "external \"@microsoft/sp-property-pane\"",
+          "index": 4,
+          "index2": 3,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "issuerId": null,
+          "issuerName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "@microsoft/sp-property-pane",
+              "loc": "17:0-68"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "@microsoft/sp-property-pane",
+              "loc": "80:32-53"
+            }
+          ],
+          "usedExports": [
+            "PropertyPaneTextField"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": "JPst",
+          "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 11,
+          "index2": 6,
+          "size": 2677,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+          "issuerId": "x15E",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.scss.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.scss.js"
+            },
+            {
+              "id": "OhSF",
+              "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css"
+            },
+            {
+              "id": "x15E",
+              "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "x15E",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+              "type": "cjs require",
+              "userRequest": "../../../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "1:27-93"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 5,
+          "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \"{\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      // eslint-disable-next-line prefer-destructuring\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = modules[_i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = \"(\".concat(item[2], \") and (\").concat(mediaQuery, \")\");\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot).concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+        },
+        {
+          "id": "ODIj",
+          "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\file-loader\\dist\\cjs.js??ref--7-0!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\assets\\welcome-light.png",
+          "name": "./lib/webparts/spFxTeamsTab/assets/welcome-light.png",
+          "index": 16,
+          "index2": 14,
+          "size": 96,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+          "issuerId": null,
+          "issuerName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+            "welcome-light_a2dcb0d64c8d6e80cf49f607eeb17723.png"
+          ],
+          "reasons": [
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "cjs require",
+              "userRequest": "../assets/welcome-light.png",
+              "loc": "46:113-151"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2,
+          "source": "module.exports = __webpack_public_path__ + \"welcome-light_a2dcb0d64c8d6e80cf49f607eeb17723.png\";"
+        },
+        {
+          "id": "OhSF",
+          "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+          "index": 9,
+          "index2": 10,
+          "size": 557,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.scss.js",
+          "issuerId": null,
+          "issuerName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.scss.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.scss.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.scss.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "cjs require",
+              "userRequest": "./SpFxTeamsTab.module.css",
+              "loc": "2:0-36"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3,
+          "source": "var content = require(\"!!../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/postcss-loader/src/index.js??postcss!./SpFxTeamsTab.module.css\");\nvar loader = require(\"D:\\\\host\\\\MySPFx\\\\Teams\\\\node_modules\\\\@microsoft\\\\loader-load-themed-styles\\\\node_modules\\\\@microsoft\\\\load-themed-styles\\\\lib\\\\index.js\");\n\nif(typeof content === \"string\") content = [[module.id, content]];\n\n// add the styles to the DOM\nfor (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);\n\nif(content.locals) module.exports = content.locals;"
+        },
+        {
+          "id": "Pk8u",
+          "identifier": "external \"@microsoft/sp-lodash-subset\"",
+          "name": "external \"@microsoft/sp-lodash-subset\"",
+          "index": 14,
+          "index2": 12,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+          "issuerId": null,
+          "issuerName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "@microsoft/sp-lodash-subset",
+              "loc": "16:0-53"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "@microsoft/sp-lodash-subset",
+              "loc": "49:20-26"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "@microsoft/sp-lodash-subset",
+              "loc": "54:56-62"
+            }
+          ],
+          "usedExports": [
+            "escape"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "id": "PqoK",
+          "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\file-loader\\dist\\cjs.js??ref--7-0!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\assets\\welcome-dark.png",
+          "name": "./lib/webparts/spFxTeamsTab/assets/welcome-dark.png",
+          "index": 15,
+          "index2": 13,
+          "size": 95,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+          "issuerId": null,
+          "issuerName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+            "welcome-dark_bc81978d2f17e05985eed81d09531178.png"
+          ],
+          "reasons": [
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "cjs require",
+              "userRequest": "../assets/welcome-dark.png",
+              "loc": "46:73-110"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2,
+          "source": "module.exports = __webpack_public_path__ + \"welcome-dark_bc81978d2f17e05985eed81d09531178.png\";"
+        },
+        {
+          "id": "UWqr",
+          "identifier": "external \"@microsoft/sp-core-library\"",
+          "name": "external \"@microsoft/sp-core-library\"",
+          "index": 3,
+          "index2": 2,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "issuerId": null,
+          "issuerName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "@microsoft/sp-core-library",
+              "loc": "16:0-53"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "@microsoft/sp-core-library",
+              "loc": "64:19-26"
+            }
+          ],
+          "usedExports": [
+            "Version"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": "br4S",
+          "identifier": "external \"@microsoft/sp-webpart-base\"",
+          "name": "external \"@microsoft/sp-webpart-base\"",
+          "index": 5,
+          "index2": 4,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "issuerId": null,
+          "issuerName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "@microsoft/sp-webpart-base",
+              "loc": "18:0-67"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "@microsoft/sp-webpart-base",
+              "loc": "91:2-23"
+            }
+          ],
+          "usedExports": [
+            "BaseClientSideWebPart"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": "cDcd",
+          "identifier": "external \"react\"",
+          "name": "external \"react\"",
+          "index": 1,
+          "index2": 0,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "issuerId": null,
+          "issuerName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "14:0-31"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "14:0-31"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "34:22-41"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "44:16-35"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "45:12-31"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "46:16-35"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "47:16-35"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "51:16-35"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "52:16-35"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "54:20-39"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "55:12-31"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "56:16-35"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "59:16-35"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "62:16-35"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "63:16-35"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "64:20-39"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "65:24-43"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "66:20-39"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "67:24-43"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "68:20-39"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "69:24-43"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "70:20-39"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "71:24-43"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "72:20-39"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "73:24-43"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "74:20-39"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "75:24-43"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "76:20-39"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "77:24-43"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "80:2-17"
+            }
+          ],
+          "usedExports": [
+            "Component",
+            "createElement"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": "e/AI",
+          "identifier": "external \"SpFxTeamsTabWebPartStrings\"",
+          "name": "external \"SpFxTeamsTabWebPartStrings\"",
+          "index": 6,
+          "index2": 5,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "issuerId": null,
+          "issuerName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "SpFxTeamsTabWebPartStrings",
+              "loc": "19:0-54"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "SpFxTeamsTabWebPartStrings",
+              "loc": "45:56-88"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "SpFxTeamsTabWebPartStrings",
+              "loc": "45:91-121"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "SpFxTeamsTabWebPartStrings",
+              "loc": "47:52-89"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "SpFxTeamsTabWebPartStrings",
+              "loc": "47:92-124"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "SpFxTeamsTabWebPartStrings",
+              "loc": "74:37-68"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "SpFxTeamsTabWebPartStrings",
+              "loc": "78:39-61"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "SpFxTeamsTabWebPartStrings",
+              "loc": "81:43-72"
+            }
+          ],
+          "usedExports": [
+            "AppLocalEnvironmentSharePoint",
+            "AppLocalEnvironmentTeams",
+            "AppSharePointEnvironment",
+            "AppTeamsTabEnvironment",
+            "BasicGroupName",
+            "DescriptionFieldLabel",
+            "PropertyPaneDescription"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": "faye",
+          "identifier": "external \"react-dom\"",
+          "name": "external \"react-dom\"",
+          "index": 2,
+          "index2": 1,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "issuerId": null,
+          "issuerName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react-dom",
+              "loc": "15:0-38"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react-dom",
+              "loc": "41:8-23"
+            },
+            {
+              "moduleId": "m0/m",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react-dom",
+              "loc": "60:8-39"
+            }
+          ],
+          "usedExports": [
+            "render",
+            "unmountComponentAtNode"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": "m0/m",
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "index": 0,
+          "index2": 16,
+          "size": 9381,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "loc": "sp-fx-teams-tab-web-part"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with external \"@microsoft/sp-core-library\" (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with external \"@microsoft/sp-lodash-subset\" (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with external \"@microsoft/sp-property-pane\" (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with external \"@microsoft/sp-webpart-base\" (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with external \"SpFxTeamsTabWebPartStrings\" (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with external \"react\" (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with external \"react-dom\" (<- Module is not an ECMAScript module)"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+              "index": 0,
+              "index2": 16,
+              "size": 4148,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+                  "loc": "sp-fx-teams-tab-web-part"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is an entry point"
+              ],
+              "depth": 0,
+              "source": "var __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nimport * as React from 'react';\r\nimport * as ReactDom from 'react-dom';\r\nimport { Version } from '@microsoft/sp-core-library';\r\nimport { PropertyPaneTextField } from '@microsoft/sp-property-pane';\r\nimport { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';\r\nimport * as strings from 'SpFxTeamsTabWebPartStrings';\r\nimport SpFxTeamsTab from './components/SpFxTeamsTab';\r\nvar SpFxTeamsTabWebPart = /** @class */ (function (_super) {\r\n    __extends(SpFxTeamsTabWebPart, _super);\r\n    function SpFxTeamsTabWebPart() {\r\n        var _this = _super !== null && _super.apply(this, arguments) || this;\r\n        _this._isDarkTheme = false;\r\n        _this._environmentMessage = '';\r\n        return _this;\r\n    }\r\n    SpFxTeamsTabWebPart.prototype.onInit = function () {\r\n        this._environmentMessage = this._getEnvironmentMessage();\r\n        return _super.prototype.onInit.call(this);\r\n    };\r\n    SpFxTeamsTabWebPart.prototype.render = function () {\r\n        var element = React.createElement(SpFxTeamsTab, {\r\n            description: this.properties.description,\r\n            isDarkTheme: this._isDarkTheme,\r\n            environmentMessage: this._environmentMessage,\r\n            hasTeamsContext: !!this.context.sdks.microsoftTeams,\r\n            userDisplayName: this.context.pageContext.user.displayName\r\n        });\r\n        ReactDom.render(element, this.domElement);\r\n    };\r\n    SpFxTeamsTabWebPart.prototype._getEnvironmentMessage = function () {\r\n        if (!!this.context.sdks.microsoftTeams) { // running in Teams\r\n            return this.context.isServedFromLocalhost ? strings.AppLocalEnvironmentTeams : strings.AppTeamsTabEnvironment;\r\n        }\r\n        return this.context.isServedFromLocalhost ? strings.AppLocalEnvironmentSharePoint : strings.AppSharePointEnvironment;\r\n    };\r\n    SpFxTeamsTabWebPart.prototype.onThemeChanged = function (currentTheme) {\r\n        if (!currentTheme) {\r\n            return;\r\n        }\r\n        this._isDarkTheme = !!currentTheme.isInverted;\r\n        var semanticColors = currentTheme.semanticColors;\r\n        this.domElement.style.setProperty('--bodyText', semanticColors.bodyText);\r\n        this.domElement.style.setProperty('--link', semanticColors.link);\r\n        this.domElement.style.setProperty('--linkHovered', semanticColors.linkHovered);\r\n    };\r\n    SpFxTeamsTabWebPart.prototype.onDispose = function () {\r\n        ReactDom.unmountComponentAtNode(this.domElement);\r\n    };\r\n    Object.defineProperty(SpFxTeamsTabWebPart.prototype, \"dataVersion\", {\r\n        get: function () {\r\n            return Version.parse('1.0');\r\n        },\r\n        enumerable: false,\r\n        configurable: true\r\n    });\r\n    SpFxTeamsTabWebPart.prototype.getPropertyPaneConfiguration = function () {\r\n        return {\r\n            pages: [\r\n                {\r\n                    header: {\r\n                        description: strings.PropertyPaneDescription\r\n                    },\r\n                    groups: [\r\n                        {\r\n                            groupName: strings.BasicGroupName,\r\n                            groupFields: [\r\n                                PropertyPaneTextField('description', {\r\n                                    label: strings.DescriptionFieldLabel\r\n                                })\r\n                            ]\r\n                        }\r\n                    ]\r\n                }\r\n            ]\r\n        };\r\n    };\r\n    return SpFxTeamsTabWebPart;\r\n}(BaseClientSideWebPart));\r\nexport default SpFxTeamsTabWebPart;\r\n//# sourceMappingURL=SpFxTeamsTabWebPart.js.map"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+              "index": 7,
+              "index2": 15,
+              "size": 4838,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "issuerId": null,
+              "issuerName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+                  "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+                  "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+                  "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./components/SpFxTeamsTab",
+                  "loc": "20:0-53"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+                  "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+                  "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "./components/SpFxTeamsTab",
+                  "loc": "34:42-54"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "var __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nimport * as React from 'react';\r\nimport styles from './SpFxTeamsTab.module.scss';\r\nimport { escape } from '@microsoft/sp-lodash-subset';\r\nvar SpFxTeamsTab = /** @class */ (function (_super) {\r\n    __extends(SpFxTeamsTab, _super);\r\n    function SpFxTeamsTab() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    SpFxTeamsTab.prototype.onInit = function () {\r\n        var _this = this;\r\n        return new Promise(function (resolve, reject) {\r\n            if (_this.context.microsoftTeams) {\r\n                _this.context.microsoftTeams.getContext(function (context) {\r\n                    _this.teamsContext = context;\r\n                    resolve();\r\n                });\r\n            }\r\n            else {\r\n                resolve();\r\n            }\r\n        });\r\n    };\r\n    SpFxTeamsTab.prototype.render = function () {\r\n        var title = (this.teamsContext)\r\n            ? 'Teams'\r\n            : 'SharePoint';\r\n        var currentLocation = (this.teamsContext)\r\n            ? \"Teams \" + this.teamsContext.teamName\r\n            : \"SharePoint workbench\"; //${ this.context.pageContext.web.title }\r\n        var _a = this.props, description = _a.description, isDarkTheme = _a.isDarkTheme, environmentMessage = _a.environmentMessage, hasTeamsContext = _a.hasTeamsContext, userDisplayName = _a.userDisplayName;\r\n        return (React.createElement(\"section\", { className: styles.spFxTeamsTab + \" \" + (hasTeamsContext ? styles.teams : '') },\r\n            React.createElement(\"div\", { className: styles.welcome },\r\n                React.createElement(\"img\", { alt: \"\", src: isDarkTheme ? require('../assets/welcome-dark.png') : require('../assets/welcome-light.png'), className: styles.welcomeImage }),\r\n                React.createElement(\"h2\", null,\r\n                    \"Well done, \",\r\n                    escape(userDisplayName),\r\n                    \"!\"),\r\n                React.createElement(\"div\", null, environmentMessage),\r\n                React.createElement(\"div\", null,\r\n                    \"Web part property value: \",\r\n                    React.createElement(\"strong\", null, escape(description)))),\r\n            React.createElement(\"div\", null,\r\n                React.createElement(\"h3\", null,\r\n                    \"Welcome to \",\r\n                    title),\r\n                React.createElement(\"p\", null,\r\n                    \"Currently in the context of following \",\r\n                    currentLocation),\r\n                React.createElement(\"h4\", null, \"Learn more about SPFx development:\"),\r\n                React.createElement(\"ul\", { className: styles.links },\r\n                    React.createElement(\"li\", null,\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/spfx\", target: \"_blank\" }, \"SharePoint Framework Overview\")),\r\n                    React.createElement(\"li\", null,\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/spfx-yeoman-graph\", target: \"_blank\" }, \"Use Microsoft Graph in your solution\")),\r\n                    React.createElement(\"li\", null,\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/spfx-yeoman-teams\", target: \"_blank\" }, \"Build for Microsoft Teams using SharePoint Framework\")),\r\n                    React.createElement(\"li\", null,\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/spfx-yeoman-viva\", target: \"_blank\" }, \"Build for Microsoft Viva Connections using SharePoint Framework\")),\r\n                    React.createElement(\"li\", null,\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/spfx-yeoman-store\", target: \"_blank\" }, \"Publish SharePoint Framework applications to the marketplace\")),\r\n                    React.createElement(\"li\", null,\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/spfx-yeoman-api\", target: \"_blank\" }, \"SharePoint Framework API reference\")),\r\n                    React.createElement(\"li\", null,\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/m365pnp\", target: \"_blank\" }, \"Microsoft 365 Developer Community\"))))));\r\n    };\r\n    return SpFxTeamsTab;\r\n}(React.Component));\r\nexport default SpFxTeamsTab;\r\n//# sourceMappingURL=SpFxTeamsTab.js.map"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.scss.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.scss.js",
+              "index": 8,
+              "index2": 11,
+              "size": 360,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "issuerId": null,
+              "issuerName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+                  "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+                },
+                {
+                  "id": null,
+                  "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+                  "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+                  "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+                  "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./SpFxTeamsTab.module.scss",
+                  "loc": "15:0-48"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+                  "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+                  "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "./SpFxTeamsTab.module.scss",
+                  "loc": "44:60-66"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+                  "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+                  "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "./SpFxTeamsTab.module.scss",
+                  "loc": "44:107-113"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+                  "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+                  "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "./SpFxTeamsTab.module.scss",
+                  "loc": "45:52-58"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+                  "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+                  "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "./SpFxTeamsTab.module.scss",
+                  "loc": "46:164-170"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+                  "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+                  "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "./SpFxTeamsTab.module.scss",
+                  "loc": "63:55-61"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 2,
+              "source": "/* tslint:disable */\r\nrequire(\"./SpFxTeamsTab.module.css\");\r\nvar styles = {\r\n    spFxTeamsTab: 'spFxTeamsTab_508c780f',\r\n    teams: 'teams_508c780f',\r\n    welcome: 'welcome_508c780f',\r\n    welcomeImage: 'welcomeImage_508c780f',\r\n    links: 'links_508c780f'\r\n};\r\nexport default styles;\r\n/* tslint:enable */ \r\n//# sourceMappingURL=SpFxTeamsTab.module.scss.js.map"
+            }
+          ],
+          "filteredModules": 0
+        },
+        {
+          "id": "ruv1",
+          "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+          "name": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+          "index": 12,
+          "index2": 9,
+          "size": 11370,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+          "issuerId": "OhSF",
+          "issuerName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.scss.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.scss.js"
+            },
+            {
+              "id": "OhSF",
+              "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "OhSF",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+              "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+              "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+              "type": "cjs require",
+              "userRequest": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+              "loc": "2:13-161"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4,
+          "source": "\"use strict\";\n// Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.\n// See LICENSE in the project root for license information.\nvar __assign = (this && this.__assign) || function () {\n    __assign = Object.assign || function(t) {\n        for (var s, i = 1, n = arguments.length; i < n; i++) {\n            s = arguments[i];\n            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\n                t[p] = s[p];\n        }\n        return t;\n    };\n    return __assign.apply(this, arguments);\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.splitStyles = exports.detokenize = exports.clearStyles = exports.loadTheme = exports.flush = exports.configureRunMode = exports.configureLoadStyles = exports.loadStyles = void 0;\n// Store the theming state in __themeState__ global scope for reuse in the case of duplicate\n// load-themed-styles hosted on the page.\nvar _root = typeof window === 'undefined' ? global : window; // eslint-disable-line @typescript-eslint/no-explicit-any\n// Nonce string to inject into script tag if one provided. This is used in CSP (Content Security Policy).\nvar _styleNonce = _root && _root.CSPSettings && _root.CSPSettings.nonce;\nvar _themeState = initializeThemeState();\n/**\n * Matches theming tokens. For example, \"[theme: themeSlotName, default: #FFF]\" (including the quotes).\n */\nvar _themeTokenRegex = /[\\'\\\"]\\[theme:\\s*(\\w+)\\s*(?:\\,\\s*default:\\s*([\\\\\"\\']?[\\.\\,\\(\\)\\#\\-\\s\\w]*[\\.\\,\\(\\)\\#\\-\\w][\\\"\\']?))?\\s*\\][\\'\\\"]/g;\nvar now = function () {\n    return typeof performance !== 'undefined' && !!performance.now ? performance.now() : Date.now();\n};\nfunction measure(func) {\n    var start = now();\n    func();\n    var end = now();\n    _themeState.perf.duration += end - start;\n}\n/**\n * initialize global state object\n */\nfunction initializeThemeState() {\n    var state = _root.__themeState__ || {\n        theme: undefined,\n        lastStyleElement: undefined,\n        registeredStyles: []\n    };\n    if (!state.runState) {\n        state = __assign(__assign({}, state), { perf: {\n                count: 0,\n                duration: 0\n            }, runState: {\n                flushTimer: 0,\n                mode: 0 /* sync */,\n                buffer: []\n            } });\n    }\n    if (!state.registeredThemableStyles) {\n        state = __assign(__assign({}, state), { registeredThemableStyles: [] });\n    }\n    _root.__themeState__ = state;\n    return state;\n}\n/**\n * Loads a set of style text. If it is registered too early, we will register it when the window.load\n * event is fired.\n * @param {string | ThemableArray} styles Themable style text to register.\n * @param {boolean} loadAsync When true, always load styles in async mode, irrespective of current sync mode.\n */\nfunction loadStyles(styles, loadAsync) {\n    if (loadAsync === void 0) { loadAsync = false; }\n    measure(function () {\n        var styleParts = Array.isArray(styles) ? styles : splitStyles(styles);\n        var _a = _themeState.runState, mode = _a.mode, buffer = _a.buffer, flushTimer = _a.flushTimer;\n        if (loadAsync || mode === 1 /* async */) {\n            buffer.push(styleParts);\n            if (!flushTimer) {\n                _themeState.runState.flushTimer = asyncLoadStyles();\n            }\n        }\n        else {\n            applyThemableStyles(styleParts);\n        }\n    });\n}\nexports.loadStyles = loadStyles;\n/**\n * Allows for customizable loadStyles logic. e.g. for server side rendering application\n * @param {(processedStyles: string, rawStyles?: string | ThemableArray) => void}\n * a loadStyles callback that gets called when styles are loaded or reloaded\n */\nfunction configureLoadStyles(loadStylesFn) {\n    _themeState.loadStyles = loadStylesFn;\n}\nexports.configureLoadStyles = configureLoadStyles;\n/**\n * Configure run mode of load-themable-styles\n * @param mode load-themable-styles run mode, async or sync\n */\nfunction configureRunMode(mode) {\n    _themeState.runState.mode = mode;\n}\nexports.configureRunMode = configureRunMode;\n/**\n * external code can call flush to synchronously force processing of currently buffered styles\n */\nfunction flush() {\n    measure(function () {\n        var styleArrays = _themeState.runState.buffer.slice();\n        _themeState.runState.buffer = [];\n        var mergedStyleArray = [].concat.apply([], styleArrays);\n        if (mergedStyleArray.length > 0) {\n            applyThemableStyles(mergedStyleArray);\n        }\n    });\n}\nexports.flush = flush;\n/**\n * register async loadStyles\n */\nfunction asyncLoadStyles() {\n    return setTimeout(function () {\n        _themeState.runState.flushTimer = 0;\n        flush();\n    }, 0);\n}\n/**\n * Loads a set of style text. If it is registered too early, we will register it when the window.load event\n * is fired.\n * @param {string} styleText Style to register.\n * @param {IStyleRecord} styleRecord Existing style record to re-apply.\n */\nfunction applyThemableStyles(stylesArray, styleRecord) {\n    if (_themeState.loadStyles) {\n        _themeState.loadStyles(resolveThemableArray(stylesArray).styleString, stylesArray);\n    }\n    else {\n        registerStyles(stylesArray);\n    }\n}\n/**\n * Registers a set theme tokens to find and replace. If styles were already registered, they will be\n * replaced.\n * @param {theme} theme JSON object of theme tokens to values.\n */\nfunction loadTheme(theme) {\n    _themeState.theme = theme;\n    // reload styles.\n    reloadStyles();\n}\nexports.loadTheme = loadTheme;\n/**\n * Clear already registered style elements and style records in theme_State object\n * @param option - specify which group of registered styles should be cleared.\n * Default to be both themable and non-themable styles will be cleared\n */\nfunction clearStyles(option) {\n    if (option === void 0) { option = 3 /* all */; }\n    if (option === 3 /* all */ || option === 2 /* onlyNonThemable */) {\n        clearStylesInternal(_themeState.registeredStyles);\n        _themeState.registeredStyles = [];\n    }\n    if (option === 3 /* all */ || option === 1 /* onlyThemable */) {\n        clearStylesInternal(_themeState.registeredThemableStyles);\n        _themeState.registeredThemableStyles = [];\n    }\n}\nexports.clearStyles = clearStyles;\nfunction clearStylesInternal(records) {\n    records.forEach(function (styleRecord) {\n        var styleElement = styleRecord && styleRecord.styleElement;\n        if (styleElement && styleElement.parentElement) {\n            styleElement.parentElement.removeChild(styleElement);\n        }\n    });\n}\n/**\n * Reloads styles.\n */\nfunction reloadStyles() {\n    if (_themeState.theme) {\n        var themableStyles = [];\n        for (var _i = 0, _a = _themeState.registeredThemableStyles; _i < _a.length; _i++) {\n            var styleRecord = _a[_i];\n            themableStyles.push(styleRecord.themableStyle);\n        }\n        if (themableStyles.length > 0) {\n            clearStyles(1 /* onlyThemable */);\n            applyThemableStyles([].concat.apply([], themableStyles));\n        }\n    }\n}\n/**\n * Find theme tokens and replaces them with provided theme values.\n * @param {string} styles Tokenized styles to fix.\n */\nfunction detokenize(styles) {\n    if (styles) {\n        styles = resolveThemableArray(splitStyles(styles)).styleString;\n    }\n    return styles;\n}\nexports.detokenize = detokenize;\n/**\n * Resolves ThemingInstruction objects in an array and joins the result into a string.\n * @param {ThemableArray} splitStyleArray ThemableArray to resolve and join.\n */\nfunction resolveThemableArray(splitStyleArray) {\n    var theme = _themeState.theme;\n    var themable = false;\n    // Resolve the array of theming instructions to an array of strings.\n    // Then join the array to produce the final CSS string.\n    var resolvedArray = (splitStyleArray || []).map(function (currentValue) {\n        var themeSlot = currentValue.theme;\n        if (themeSlot) {\n            themable = true;\n            // A theming annotation. Resolve it.\n            var themedValue = theme ? theme[themeSlot] : undefined;\n            var defaultValue = currentValue.defaultValue || 'inherit';\n            // Warn to console if we hit an unthemed value even when themes are provided, but only if \"DEBUG\" is true.\n            // Allow the themedValue to be undefined to explicitly request the default value.\n            if (theme &&\n                !themedValue &&\n                console &&\n                !(themeSlot in theme) &&\n                typeof DEBUG !== 'undefined' &&\n                DEBUG) {\n                console.warn(\"Theming value not provided for \\\"\".concat(themeSlot, \"\\\". Falling back to \\\"\").concat(defaultValue, \"\\\".\"));\n            }\n            return themedValue || defaultValue;\n        }\n        else {\n            // A non-themable string. Preserve it.\n            return currentValue.rawString;\n        }\n    });\n    return {\n        styleString: resolvedArray.join(''),\n        themable: themable\n    };\n}\n/**\n * Split tokenized CSS into an array of strings and theme specification objects\n * @param {string} styles Tokenized styles to split.\n */\nfunction splitStyles(styles) {\n    var result = [];\n    if (styles) {\n        var pos = 0; // Current position in styles.\n        var tokenMatch = void 0;\n        while ((tokenMatch = _themeTokenRegex.exec(styles))) {\n            var matchIndex = tokenMatch.index;\n            if (matchIndex > pos) {\n                result.push({\n                    rawString: styles.substring(pos, matchIndex)\n                });\n            }\n            result.push({\n                theme: tokenMatch[1],\n                defaultValue: tokenMatch[2] // May be undefined\n            });\n            // index of the first character after the current match\n            pos = _themeTokenRegex.lastIndex;\n        }\n        // Push the rest of the string after the last match.\n        result.push({\n            rawString: styles.substring(pos)\n        });\n    }\n    return result;\n}\nexports.splitStyles = splitStyles;\n/**\n * Registers a set of style text. If it is registered too early, we will register it when the\n * window.load event is fired.\n * @param {ThemableArray} styleArray Array of IThemingInstruction objects to register.\n * @param {IStyleRecord} styleRecord May specify a style Element to update.\n */\nfunction registerStyles(styleArray) {\n    if (typeof document === 'undefined') {\n        return;\n    }\n    var head = document.getElementsByTagName('head')[0];\n    var styleElement = document.createElement('style');\n    var _a = resolveThemableArray(styleArray), styleString = _a.styleString, themable = _a.themable;\n    styleElement.setAttribute('data-load-themed-styles', 'true');\n    if (_styleNonce) {\n        styleElement.setAttribute('nonce', _styleNonce);\n    }\n    styleElement.appendChild(document.createTextNode(styleString));\n    _themeState.perf.count++;\n    head.appendChild(styleElement);\n    var ev = document.createEvent('HTMLEvents');\n    ev.initEvent('styleinsert', true /* bubbleEvent */, false /* cancelable */);\n    ev.args = {\n        newStyle: styleElement\n    };\n    document.dispatchEvent(ev);\n    var record = {\n        styleElement: styleElement,\n        themableStyle: styleArray\n    };\n    if (themable) {\n        _themeState.registeredThemableStyles.push(record);\n    }\n    else {\n        _themeState.registeredStyles.push(record);\n    }\n}\n//# sourceMappingURL=index.js.map"
+        },
+        {
+          "id": "x15E",
+          "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+          "index": 10,
+          "index2": 7,
+          "size": 696,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+          "issuerId": "OhSF",
+          "issuerName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.scss.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.scss.js"
+            },
+            {
+              "id": "OhSF",
+              "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "OhSF",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+              "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+              "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+              "type": "cjs require",
+              "userRequest": "!!../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/postcss-loader/src/index.js??postcss!./SpFxTeamsTab.module.css",
+              "loc": "1:14-162"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4,
+          "source": "exports = module.exports = require(\"../../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".spFxTeamsTab_508c780f{overflow:hidden;padding:1em;color:\\\"[theme:bodyText, default: #323130]\\\";color:var(--bodyText)}.spFxTeamsTab_508c780f.teams_508c780f{font-family:Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif}.welcome_508c780f{text-align:center}.welcomeImage_508c780f{width:100%;max-width:420px}.links_508c780f a{text-decoration:none;color:\\\"[theme:link, default:#03787c]\\\";color:var(--link)}.links_508c780f a:hover{text-decoration:underline;color:\\\"[theme:linkHovered, default: #014446]\\\";color:var(--linkHovered)}\", \"\"]);\n"
+        },
+        {
+          "id": "yLpj",
+          "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\webpack\\buildin\\global.js",
+          "name": "(webpack)/buildin/global.js",
+          "index": 13,
+          "index2": 8,
+          "size": 472,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+          "issuerId": "ruv1",
+          "issuerName": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.scss.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.scss.js"
+            },
+            {
+              "id": "OhSF",
+              "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css"
+            },
+            {
+              "id": "ruv1",
+              "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+              "name": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "ruv1",
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+              "module": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+              "moduleName": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+              "type": "cjs require",
+              "userRequest": "global",
+              "loc": "1:0-56"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 5,
+          "source": "var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn this;\n})();\n\ntry {\n\t// This works if eval is allowed (see CSP)\n\tg = g || new Function(\"return this\")();\n} catch (e) {\n\t// This works if the window reference is available\n\tif (typeof window === \"object\") g = window;\n}\n\n// g can still be undefined, but nothing to do about it...\n// We return undefined, instead of nothing here, so it's\n// easier to handle this case. if(!global) { ...}\n\nmodule.exports = g;\n"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "sp-fx-teams-tab-web-part",
+          "request": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "26ea",
+      "identifier": "external \"@microsoft/sp-property-pane\"",
+      "name": "external \"@microsoft/sp-property-pane\"",
+      "index": 4,
+      "index2": 3,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+      "issuerId": null,
+      "issuerName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "@microsoft/sp-property-pane",
+          "loc": "17:0-68"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "@microsoft/sp-property-pane",
+          "loc": "80:32-53"
+        }
+      ],
+      "usedExports": [
+        "PropertyPaneTextField"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": "I6O9",
+      "identifier": "external \"@microsoft/sp-loader\"",
+      "name": "external \"@microsoft/sp-loader\"",
+      "index": null,
+      "index2": null,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "id": "JPst",
+      "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\runtime\\api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "index": 11,
+      "index2": 6,
+      "size": 2677,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+      "issuerId": "x15E",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.scss.js",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.scss.js"
+        },
+        {
+          "id": "OhSF",
+          "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css"
+        },
+        {
+          "id": "x15E",
+          "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "x15E",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+          "type": "cjs require",
+          "userRequest": "../../../../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "1:27-93"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5,
+      "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \"{\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      // eslint-disable-next-line prefer-destructuring\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = modules[_i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = \"(\".concat(item[2], \") and (\").concat(mediaQuery, \")\");\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot).concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+    },
+    {
+      "id": "ODIj",
+      "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\file-loader\\dist\\cjs.js??ref--7-0!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\assets\\welcome-light.png",
+      "name": "./lib/webparts/spFxTeamsTab/assets/welcome-light.png",
+      "index": 16,
+      "index2": 14,
+      "size": 96,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+      "issuerId": null,
+      "issuerName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+        "welcome-light_a2dcb0d64c8d6e80cf49f607eeb17723.png"
+      ],
+      "reasons": [
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "cjs require",
+          "userRequest": "../assets/welcome-light.png",
+          "loc": "46:113-151"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2,
+      "source": "module.exports = __webpack_public_path__ + \"welcome-light_a2dcb0d64c8d6e80cf49f607eeb17723.png\";"
+    },
+    {
+      "id": "OhSF",
+      "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+      "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+      "index": 9,
+      "index2": 10,
+      "size": 557,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.scss.js",
+      "issuerId": null,
+      "issuerName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.scss.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.scss.js",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.scss.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "cjs require",
+          "userRequest": "./SpFxTeamsTab.module.css",
+          "loc": "2:0-36"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3,
+      "source": "var content = require(\"!!../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/postcss-loader/src/index.js??postcss!./SpFxTeamsTab.module.css\");\nvar loader = require(\"D:\\\\host\\\\MySPFx\\\\Teams\\\\node_modules\\\\@microsoft\\\\loader-load-themed-styles\\\\node_modules\\\\@microsoft\\\\load-themed-styles\\\\lib\\\\index.js\");\n\nif(typeof content === \"string\") content = [[module.id, content]];\n\n// add the styles to the DOM\nfor (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);\n\nif(content.locals) module.exports = content.locals;"
+    },
+    {
+      "id": "Pk8u",
+      "identifier": "external \"@microsoft/sp-lodash-subset\"",
+      "name": "external \"@microsoft/sp-lodash-subset\"",
+      "index": 14,
+      "index2": 12,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+      "issuerId": null,
+      "issuerName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "@microsoft/sp-lodash-subset",
+          "loc": "16:0-53"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "@microsoft/sp-lodash-subset",
+          "loc": "49:20-26"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "@microsoft/sp-lodash-subset",
+          "loc": "54:56-62"
+        }
+      ],
+      "usedExports": [
+        "escape"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "id": "PqoK",
+      "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\file-loader\\dist\\cjs.js??ref--7-0!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\assets\\welcome-dark.png",
+      "name": "./lib/webparts/spFxTeamsTab/assets/welcome-dark.png",
+      "index": 15,
+      "index2": 13,
+      "size": 95,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+      "issuerId": null,
+      "issuerName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+        "welcome-dark_bc81978d2f17e05985eed81d09531178.png"
+      ],
+      "reasons": [
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "cjs require",
+          "userRequest": "../assets/welcome-dark.png",
+          "loc": "46:73-110"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2,
+      "source": "module.exports = __webpack_public_path__ + \"welcome-dark_bc81978d2f17e05985eed81d09531178.png\";"
+    },
+    {
+      "id": "UWqr",
+      "identifier": "external \"@microsoft/sp-core-library\"",
+      "name": "external \"@microsoft/sp-core-library\"",
+      "index": 3,
+      "index2": 2,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+      "issuerId": null,
+      "issuerName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "@microsoft/sp-core-library",
+          "loc": "16:0-53"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "@microsoft/sp-core-library",
+          "loc": "64:19-26"
+        }
+      ],
+      "usedExports": [
+        "Version"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": "br4S",
+      "identifier": "external \"@microsoft/sp-webpart-base\"",
+      "name": "external \"@microsoft/sp-webpart-base\"",
+      "index": 5,
+      "index2": 4,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+      "issuerId": null,
+      "issuerName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "@microsoft/sp-webpart-base",
+          "loc": "18:0-67"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "@microsoft/sp-webpart-base",
+          "loc": "91:2-23"
+        }
+      ],
+      "usedExports": [
+        "BaseClientSideWebPart"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": "cDcd",
+      "identifier": "external \"react\"",
+      "name": "external \"react\"",
+      "index": 1,
+      "index2": 0,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+      "issuerId": null,
+      "issuerName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "14:0-31"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "14:0-31"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "34:22-41"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "44:16-35"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "45:12-31"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "46:16-35"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "47:16-35"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "51:16-35"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "52:16-35"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "54:20-39"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "55:12-31"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "56:16-35"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "59:16-35"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "62:16-35"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "63:16-35"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "64:20-39"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "65:24-43"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "66:20-39"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "67:24-43"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "68:20-39"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "69:24-43"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "70:20-39"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "71:24-43"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "72:20-39"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "73:24-43"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "74:20-39"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "75:24-43"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "76:20-39"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "77:24-43"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "80:2-17"
+        }
+      ],
+      "usedExports": [
+        "Component",
+        "createElement"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": "e/AI",
+      "identifier": "external \"SpFxTeamsTabWebPartStrings\"",
+      "name": "external \"SpFxTeamsTabWebPartStrings\"",
+      "index": 6,
+      "index2": 5,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+      "issuerId": null,
+      "issuerName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "SpFxTeamsTabWebPartStrings",
+          "loc": "19:0-54"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "SpFxTeamsTabWebPartStrings",
+          "loc": "45:56-88"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "SpFxTeamsTabWebPartStrings",
+          "loc": "45:91-121"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "SpFxTeamsTabWebPartStrings",
+          "loc": "47:52-89"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "SpFxTeamsTabWebPartStrings",
+          "loc": "47:92-124"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "SpFxTeamsTabWebPartStrings",
+          "loc": "74:37-68"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "SpFxTeamsTabWebPartStrings",
+          "loc": "78:39-61"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "SpFxTeamsTabWebPartStrings",
+          "loc": "81:43-72"
+        }
+      ],
+      "usedExports": [
+        "AppLocalEnvironmentSharePoint",
+        "AppLocalEnvironmentTeams",
+        "AppSharePointEnvironment",
+        "AppTeamsTabEnvironment",
+        "BasicGroupName",
+        "DescriptionFieldLabel",
+        "PropertyPaneDescription"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": "faye",
+      "identifier": "external \"react-dom\"",
+      "name": "external \"react-dom\"",
+      "index": 2,
+      "index2": 1,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+      "issuerId": null,
+      "issuerName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react-dom",
+          "loc": "15:0-38"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react-dom",
+          "loc": "41:8-23"
+        },
+        {
+          "moduleId": "m0/m",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+          "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react-dom",
+          "loc": "60:8-39"
+        }
+      ],
+      "usedExports": [
+        "render",
+        "unmountComponentAtNode"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": "m0/m",
+      "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js 660d0b682d8ce09fe571965ca57b5612",
+      "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js + 2 modules",
+      "index": 0,
+      "index2": 16,
+      "size": 9381,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "loc": "sp-fx-teams-tab-web-part"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with external \"@microsoft/sp-core-library\" (<- Module is not an ECMAScript module)",
+        "ModuleConcatenation bailout: Cannot concat with external \"@microsoft/sp-lodash-subset\" (<- Module is not an ECMAScript module)",
+        "ModuleConcatenation bailout: Cannot concat with external \"@microsoft/sp-property-pane\" (<- Module is not an ECMAScript module)",
+        "ModuleConcatenation bailout: Cannot concat with external \"@microsoft/sp-webpart-base\" (<- Module is not an ECMAScript module)",
+        "ModuleConcatenation bailout: Cannot concat with external \"SpFxTeamsTabWebPartStrings\" (<- Module is not an ECMAScript module)",
+        "ModuleConcatenation bailout: Cannot concat with external \"react\" (<- Module is not an ECMAScript module)",
+        "ModuleConcatenation bailout: Cannot concat with external \"react-dom\" (<- Module is not an ECMAScript module)"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+          "index": 0,
+          "index2": 16,
+          "size": 4148,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "loc": "sp-fx-teams-tab-web-part"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0,
+          "source": "var __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nimport * as React from 'react';\r\nimport * as ReactDom from 'react-dom';\r\nimport { Version } from '@microsoft/sp-core-library';\r\nimport { PropertyPaneTextField } from '@microsoft/sp-property-pane';\r\nimport { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';\r\nimport * as strings from 'SpFxTeamsTabWebPartStrings';\r\nimport SpFxTeamsTab from './components/SpFxTeamsTab';\r\nvar SpFxTeamsTabWebPart = /** @class */ (function (_super) {\r\n    __extends(SpFxTeamsTabWebPart, _super);\r\n    function SpFxTeamsTabWebPart() {\r\n        var _this = _super !== null && _super.apply(this, arguments) || this;\r\n        _this._isDarkTheme = false;\r\n        _this._environmentMessage = '';\r\n        return _this;\r\n    }\r\n    SpFxTeamsTabWebPart.prototype.onInit = function () {\r\n        this._environmentMessage = this._getEnvironmentMessage();\r\n        return _super.prototype.onInit.call(this);\r\n    };\r\n    SpFxTeamsTabWebPart.prototype.render = function () {\r\n        var element = React.createElement(SpFxTeamsTab, {\r\n            description: this.properties.description,\r\n            isDarkTheme: this._isDarkTheme,\r\n            environmentMessage: this._environmentMessage,\r\n            hasTeamsContext: !!this.context.sdks.microsoftTeams,\r\n            userDisplayName: this.context.pageContext.user.displayName\r\n        });\r\n        ReactDom.render(element, this.domElement);\r\n    };\r\n    SpFxTeamsTabWebPart.prototype._getEnvironmentMessage = function () {\r\n        if (!!this.context.sdks.microsoftTeams) { // running in Teams\r\n            return this.context.isServedFromLocalhost ? strings.AppLocalEnvironmentTeams : strings.AppTeamsTabEnvironment;\r\n        }\r\n        return this.context.isServedFromLocalhost ? strings.AppLocalEnvironmentSharePoint : strings.AppSharePointEnvironment;\r\n    };\r\n    SpFxTeamsTabWebPart.prototype.onThemeChanged = function (currentTheme) {\r\n        if (!currentTheme) {\r\n            return;\r\n        }\r\n        this._isDarkTheme = !!currentTheme.isInverted;\r\n        var semanticColors = currentTheme.semanticColors;\r\n        this.domElement.style.setProperty('--bodyText', semanticColors.bodyText);\r\n        this.domElement.style.setProperty('--link', semanticColors.link);\r\n        this.domElement.style.setProperty('--linkHovered', semanticColors.linkHovered);\r\n    };\r\n    SpFxTeamsTabWebPart.prototype.onDispose = function () {\r\n        ReactDom.unmountComponentAtNode(this.domElement);\r\n    };\r\n    Object.defineProperty(SpFxTeamsTabWebPart.prototype, \"dataVersion\", {\r\n        get: function () {\r\n            return Version.parse('1.0');\r\n        },\r\n        enumerable: false,\r\n        configurable: true\r\n    });\r\n    SpFxTeamsTabWebPart.prototype.getPropertyPaneConfiguration = function () {\r\n        return {\r\n            pages: [\r\n                {\r\n                    header: {\r\n                        description: strings.PropertyPaneDescription\r\n                    },\r\n                    groups: [\r\n                        {\r\n                            groupName: strings.BasicGroupName,\r\n                            groupFields: [\r\n                                PropertyPaneTextField('description', {\r\n                                    label: strings.DescriptionFieldLabel\r\n                                })\r\n                            ]\r\n                        }\r\n                    ]\r\n                }\r\n            ]\r\n        };\r\n    };\r\n    return SpFxTeamsTabWebPart;\r\n}(BaseClientSideWebPart));\r\nexport default SpFxTeamsTabWebPart;\r\n//# sourceMappingURL=SpFxTeamsTabWebPart.js.map"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+          "index": 7,
+          "index2": 15,
+          "size": 4838,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "issuerId": null,
+          "issuerName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./components/SpFxTeamsTab",
+              "loc": "20:0-53"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "module": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+              "moduleName": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js",
+              "type": "harmony import specifier",
+              "userRequest": "./components/SpFxTeamsTab",
+              "loc": "34:42-54"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "var __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nimport * as React from 'react';\r\nimport styles from './SpFxTeamsTab.module.scss';\r\nimport { escape } from '@microsoft/sp-lodash-subset';\r\nvar SpFxTeamsTab = /** @class */ (function (_super) {\r\n    __extends(SpFxTeamsTab, _super);\r\n    function SpFxTeamsTab() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    SpFxTeamsTab.prototype.onInit = function () {\r\n        var _this = this;\r\n        return new Promise(function (resolve, reject) {\r\n            if (_this.context.microsoftTeams) {\r\n                _this.context.microsoftTeams.getContext(function (context) {\r\n                    _this.teamsContext = context;\r\n                    resolve();\r\n                });\r\n            }\r\n            else {\r\n                resolve();\r\n            }\r\n        });\r\n    };\r\n    SpFxTeamsTab.prototype.render = function () {\r\n        var title = (this.teamsContext)\r\n            ? 'Teams'\r\n            : 'SharePoint';\r\n        var currentLocation = (this.teamsContext)\r\n            ? \"Teams \" + this.teamsContext.teamName\r\n            : \"SharePoint workbench\"; //${ this.context.pageContext.web.title }\r\n        var _a = this.props, description = _a.description, isDarkTheme = _a.isDarkTheme, environmentMessage = _a.environmentMessage, hasTeamsContext = _a.hasTeamsContext, userDisplayName = _a.userDisplayName;\r\n        return (React.createElement(\"section\", { className: styles.spFxTeamsTab + \" \" + (hasTeamsContext ? styles.teams : '') },\r\n            React.createElement(\"div\", { className: styles.welcome },\r\n                React.createElement(\"img\", { alt: \"\", src: isDarkTheme ? require('../assets/welcome-dark.png') : require('../assets/welcome-light.png'), className: styles.welcomeImage }),\r\n                React.createElement(\"h2\", null,\r\n                    \"Well done, \",\r\n                    escape(userDisplayName),\r\n                    \"!\"),\r\n                React.createElement(\"div\", null, environmentMessage),\r\n                React.createElement(\"div\", null,\r\n                    \"Web part property value: \",\r\n                    React.createElement(\"strong\", null, escape(description)))),\r\n            React.createElement(\"div\", null,\r\n                React.createElement(\"h3\", null,\r\n                    \"Welcome to \",\r\n                    title),\r\n                React.createElement(\"p\", null,\r\n                    \"Currently in the context of following \",\r\n                    currentLocation),\r\n                React.createElement(\"h4\", null, \"Learn more about SPFx development:\"),\r\n                React.createElement(\"ul\", { className: styles.links },\r\n                    React.createElement(\"li\", null,\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/spfx\", target: \"_blank\" }, \"SharePoint Framework Overview\")),\r\n                    React.createElement(\"li\", null,\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/spfx-yeoman-graph\", target: \"_blank\" }, \"Use Microsoft Graph in your solution\")),\r\n                    React.createElement(\"li\", null,\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/spfx-yeoman-teams\", target: \"_blank\" }, \"Build for Microsoft Teams using SharePoint Framework\")),\r\n                    React.createElement(\"li\", null,\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/spfx-yeoman-viva\", target: \"_blank\" }, \"Build for Microsoft Viva Connections using SharePoint Framework\")),\r\n                    React.createElement(\"li\", null,\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/spfx-yeoman-store\", target: \"_blank\" }, \"Publish SharePoint Framework applications to the marketplace\")),\r\n                    React.createElement(\"li\", null,\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/spfx-yeoman-api\", target: \"_blank\" }, \"SharePoint Framework API reference\")),\r\n                    React.createElement(\"li\", null,\r\n                        React.createElement(\"a\", { href: \"https://aka.ms/m365pnp\", target: \"_blank\" }, \"Microsoft 365 Developer Community\"))))));\r\n    };\r\n    return SpFxTeamsTab;\r\n}(React.Component));\r\nexport default SpFxTeamsTab;\r\n//# sourceMappingURL=SpFxTeamsTab.js.map"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.scss.js",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.scss.js",
+          "index": 8,
+          "index2": 11,
+          "size": 360,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+          "issuerId": null,
+          "issuerName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+              "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+              "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./SpFxTeamsTab.module.scss",
+              "loc": "15:0-48"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+              "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+              "type": "harmony import specifier",
+              "userRequest": "./SpFxTeamsTab.module.scss",
+              "loc": "44:60-66"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+              "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+              "type": "harmony import specifier",
+              "userRequest": "./SpFxTeamsTab.module.scss",
+              "loc": "44:107-113"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+              "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+              "type": "harmony import specifier",
+              "userRequest": "./SpFxTeamsTab.module.scss",
+              "loc": "45:52-58"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+              "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+              "type": "harmony import specifier",
+              "userRequest": "./SpFxTeamsTab.module.scss",
+              "loc": "46:164-170"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+              "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+              "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js",
+              "type": "harmony import specifier",
+              "userRequest": "./SpFxTeamsTab.module.scss",
+              "loc": "63:55-61"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "/* tslint:disable */\r\nrequire(\"./SpFxTeamsTab.module.css\");\r\nvar styles = {\r\n    spFxTeamsTab: 'spFxTeamsTab_508c780f',\r\n    teams: 'teams_508c780f',\r\n    welcome: 'welcome_508c780f',\r\n    welcomeImage: 'welcomeImage_508c780f',\r\n    links: 'links_508c780f'\r\n};\r\nexport default styles;\r\n/* tslint:enable */ \r\n//# sourceMappingURL=SpFxTeamsTab.module.scss.js.map"
+        }
+      ],
+      "filteredModules": 0
+    },
+    {
+      "id": "ruv1",
+      "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+      "name": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+      "index": 12,
+      "index2": 9,
+      "size": 11370,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+      "issuerId": "OhSF",
+      "issuerName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.scss.js",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.scss.js"
+        },
+        {
+          "id": "OhSF",
+          "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "OhSF",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+          "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+          "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+          "type": "cjs require",
+          "userRequest": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+          "loc": "2:13-161"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4,
+      "source": "\"use strict\";\n// Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.\n// See LICENSE in the project root for license information.\nvar __assign = (this && this.__assign) || function () {\n    __assign = Object.assign || function(t) {\n        for (var s, i = 1, n = arguments.length; i < n; i++) {\n            s = arguments[i];\n            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\n                t[p] = s[p];\n        }\n        return t;\n    };\n    return __assign.apply(this, arguments);\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.splitStyles = exports.detokenize = exports.clearStyles = exports.loadTheme = exports.flush = exports.configureRunMode = exports.configureLoadStyles = exports.loadStyles = void 0;\n// Store the theming state in __themeState__ global scope for reuse in the case of duplicate\n// load-themed-styles hosted on the page.\nvar _root = typeof window === 'undefined' ? global : window; // eslint-disable-line @typescript-eslint/no-explicit-any\n// Nonce string to inject into script tag if one provided. This is used in CSP (Content Security Policy).\nvar _styleNonce = _root && _root.CSPSettings && _root.CSPSettings.nonce;\nvar _themeState = initializeThemeState();\n/**\n * Matches theming tokens. For example, \"[theme: themeSlotName, default: #FFF]\" (including the quotes).\n */\nvar _themeTokenRegex = /[\\'\\\"]\\[theme:\\s*(\\w+)\\s*(?:\\,\\s*default:\\s*([\\\\\"\\']?[\\.\\,\\(\\)\\#\\-\\s\\w]*[\\.\\,\\(\\)\\#\\-\\w][\\\"\\']?))?\\s*\\][\\'\\\"]/g;\nvar now = function () {\n    return typeof performance !== 'undefined' && !!performance.now ? performance.now() : Date.now();\n};\nfunction measure(func) {\n    var start = now();\n    func();\n    var end = now();\n    _themeState.perf.duration += end - start;\n}\n/**\n * initialize global state object\n */\nfunction initializeThemeState() {\n    var state = _root.__themeState__ || {\n        theme: undefined,\n        lastStyleElement: undefined,\n        registeredStyles: []\n    };\n    if (!state.runState) {\n        state = __assign(__assign({}, state), { perf: {\n                count: 0,\n                duration: 0\n            }, runState: {\n                flushTimer: 0,\n                mode: 0 /* sync */,\n                buffer: []\n            } });\n    }\n    if (!state.registeredThemableStyles) {\n        state = __assign(__assign({}, state), { registeredThemableStyles: [] });\n    }\n    _root.__themeState__ = state;\n    return state;\n}\n/**\n * Loads a set of style text. If it is registered too early, we will register it when the window.load\n * event is fired.\n * @param {string | ThemableArray} styles Themable style text to register.\n * @param {boolean} loadAsync When true, always load styles in async mode, irrespective of current sync mode.\n */\nfunction loadStyles(styles, loadAsync) {\n    if (loadAsync === void 0) { loadAsync = false; }\n    measure(function () {\n        var styleParts = Array.isArray(styles) ? styles : splitStyles(styles);\n        var _a = _themeState.runState, mode = _a.mode, buffer = _a.buffer, flushTimer = _a.flushTimer;\n        if (loadAsync || mode === 1 /* async */) {\n            buffer.push(styleParts);\n            if (!flushTimer) {\n                _themeState.runState.flushTimer = asyncLoadStyles();\n            }\n        }\n        else {\n            applyThemableStyles(styleParts);\n        }\n    });\n}\nexports.loadStyles = loadStyles;\n/**\n * Allows for customizable loadStyles logic. e.g. for server side rendering application\n * @param {(processedStyles: string, rawStyles?: string | ThemableArray) => void}\n * a loadStyles callback that gets called when styles are loaded or reloaded\n */\nfunction configureLoadStyles(loadStylesFn) {\n    _themeState.loadStyles = loadStylesFn;\n}\nexports.configureLoadStyles = configureLoadStyles;\n/**\n * Configure run mode of load-themable-styles\n * @param mode load-themable-styles run mode, async or sync\n */\nfunction configureRunMode(mode) {\n    _themeState.runState.mode = mode;\n}\nexports.configureRunMode = configureRunMode;\n/**\n * external code can call flush to synchronously force processing of currently buffered styles\n */\nfunction flush() {\n    measure(function () {\n        var styleArrays = _themeState.runState.buffer.slice();\n        _themeState.runState.buffer = [];\n        var mergedStyleArray = [].concat.apply([], styleArrays);\n        if (mergedStyleArray.length > 0) {\n            applyThemableStyles(mergedStyleArray);\n        }\n    });\n}\nexports.flush = flush;\n/**\n * register async loadStyles\n */\nfunction asyncLoadStyles() {\n    return setTimeout(function () {\n        _themeState.runState.flushTimer = 0;\n        flush();\n    }, 0);\n}\n/**\n * Loads a set of style text. If it is registered too early, we will register it when the window.load event\n * is fired.\n * @param {string} styleText Style to register.\n * @param {IStyleRecord} styleRecord Existing style record to re-apply.\n */\nfunction applyThemableStyles(stylesArray, styleRecord) {\n    if (_themeState.loadStyles) {\n        _themeState.loadStyles(resolveThemableArray(stylesArray).styleString, stylesArray);\n    }\n    else {\n        registerStyles(stylesArray);\n    }\n}\n/**\n * Registers a set theme tokens to find and replace. If styles were already registered, they will be\n * replaced.\n * @param {theme} theme JSON object of theme tokens to values.\n */\nfunction loadTheme(theme) {\n    _themeState.theme = theme;\n    // reload styles.\n    reloadStyles();\n}\nexports.loadTheme = loadTheme;\n/**\n * Clear already registered style elements and style records in theme_State object\n * @param option - specify which group of registered styles should be cleared.\n * Default to be both themable and non-themable styles will be cleared\n */\nfunction clearStyles(option) {\n    if (option === void 0) { option = 3 /* all */; }\n    if (option === 3 /* all */ || option === 2 /* onlyNonThemable */) {\n        clearStylesInternal(_themeState.registeredStyles);\n        _themeState.registeredStyles = [];\n    }\n    if (option === 3 /* all */ || option === 1 /* onlyThemable */) {\n        clearStylesInternal(_themeState.registeredThemableStyles);\n        _themeState.registeredThemableStyles = [];\n    }\n}\nexports.clearStyles = clearStyles;\nfunction clearStylesInternal(records) {\n    records.forEach(function (styleRecord) {\n        var styleElement = styleRecord && styleRecord.styleElement;\n        if (styleElement && styleElement.parentElement) {\n            styleElement.parentElement.removeChild(styleElement);\n        }\n    });\n}\n/**\n * Reloads styles.\n */\nfunction reloadStyles() {\n    if (_themeState.theme) {\n        var themableStyles = [];\n        for (var _i = 0, _a = _themeState.registeredThemableStyles; _i < _a.length; _i++) {\n            var styleRecord = _a[_i];\n            themableStyles.push(styleRecord.themableStyle);\n        }\n        if (themableStyles.length > 0) {\n            clearStyles(1 /* onlyThemable */);\n            applyThemableStyles([].concat.apply([], themableStyles));\n        }\n    }\n}\n/**\n * Find theme tokens and replaces them with provided theme values.\n * @param {string} styles Tokenized styles to fix.\n */\nfunction detokenize(styles) {\n    if (styles) {\n        styles = resolveThemableArray(splitStyles(styles)).styleString;\n    }\n    return styles;\n}\nexports.detokenize = detokenize;\n/**\n * Resolves ThemingInstruction objects in an array and joins the result into a string.\n * @param {ThemableArray} splitStyleArray ThemableArray to resolve and join.\n */\nfunction resolveThemableArray(splitStyleArray) {\n    var theme = _themeState.theme;\n    var themable = false;\n    // Resolve the array of theming instructions to an array of strings.\n    // Then join the array to produce the final CSS string.\n    var resolvedArray = (splitStyleArray || []).map(function (currentValue) {\n        var themeSlot = currentValue.theme;\n        if (themeSlot) {\n            themable = true;\n            // A theming annotation. Resolve it.\n            var themedValue = theme ? theme[themeSlot] : undefined;\n            var defaultValue = currentValue.defaultValue || 'inherit';\n            // Warn to console if we hit an unthemed value even when themes are provided, but only if \"DEBUG\" is true.\n            // Allow the themedValue to be undefined to explicitly request the default value.\n            if (theme &&\n                !themedValue &&\n                console &&\n                !(themeSlot in theme) &&\n                typeof DEBUG !== 'undefined' &&\n                DEBUG) {\n                console.warn(\"Theming value not provided for \\\"\".concat(themeSlot, \"\\\". Falling back to \\\"\").concat(defaultValue, \"\\\".\"));\n            }\n            return themedValue || defaultValue;\n        }\n        else {\n            // A non-themable string. Preserve it.\n            return currentValue.rawString;\n        }\n    });\n    return {\n        styleString: resolvedArray.join(''),\n        themable: themable\n    };\n}\n/**\n * Split tokenized CSS into an array of strings and theme specification objects\n * @param {string} styles Tokenized styles to split.\n */\nfunction splitStyles(styles) {\n    var result = [];\n    if (styles) {\n        var pos = 0; // Current position in styles.\n        var tokenMatch = void 0;\n        while ((tokenMatch = _themeTokenRegex.exec(styles))) {\n            var matchIndex = tokenMatch.index;\n            if (matchIndex > pos) {\n                result.push({\n                    rawString: styles.substring(pos, matchIndex)\n                });\n            }\n            result.push({\n                theme: tokenMatch[1],\n                defaultValue: tokenMatch[2] // May be undefined\n            });\n            // index of the first character after the current match\n            pos = _themeTokenRegex.lastIndex;\n        }\n        // Push the rest of the string after the last match.\n        result.push({\n            rawString: styles.substring(pos)\n        });\n    }\n    return result;\n}\nexports.splitStyles = splitStyles;\n/**\n * Registers a set of style text. If it is registered too early, we will register it when the\n * window.load event is fired.\n * @param {ThemableArray} styleArray Array of IThemingInstruction objects to register.\n * @param {IStyleRecord} styleRecord May specify a style Element to update.\n */\nfunction registerStyles(styleArray) {\n    if (typeof document === 'undefined') {\n        return;\n    }\n    var head = document.getElementsByTagName('head')[0];\n    var styleElement = document.createElement('style');\n    var _a = resolveThemableArray(styleArray), styleString = _a.styleString, themable = _a.themable;\n    styleElement.setAttribute('data-load-themed-styles', 'true');\n    if (_styleNonce) {\n        styleElement.setAttribute('nonce', _styleNonce);\n    }\n    styleElement.appendChild(document.createTextNode(styleString));\n    _themeState.perf.count++;\n    head.appendChild(styleElement);\n    var ev = document.createEvent('HTMLEvents');\n    ev.initEvent('styleinsert', true /* bubbleEvent */, false /* cancelable */);\n    ev.args = {\n        newStyle: styleElement\n    };\n    document.dispatchEvent(ev);\n    var record = {\n        styleElement: styleElement,\n        themableStyle: styleArray\n    };\n    if (themable) {\n        _themeState.registeredThemableStyles.push(record);\n    }\n    else {\n        _themeState.registeredStyles.push(record);\n    }\n}\n//# sourceMappingURL=index.js.map"
+    },
+    {
+      "id": "x15E",
+      "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+      "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??postcss!./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+      "index": 10,
+      "index2": 7,
+      "size": 696,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+      "issuerId": "OhSF",
+      "issuerName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.scss.js",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.scss.js"
+        },
+        {
+          "id": "OhSF",
+          "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "OhSF",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+          "module": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+          "moduleName": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css",
+          "type": "cjs require",
+          "userRequest": "!!../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/postcss-loader/src/index.js??postcss!./SpFxTeamsTab.module.css",
+          "loc": "1:14-162"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4,
+      "source": "exports = module.exports = require(\"../../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".spFxTeamsTab_508c780f{overflow:hidden;padding:1em;color:\\\"[theme:bodyText, default: #323130]\\\";color:var(--bodyText)}.spFxTeamsTab_508c780f.teams_508c780f{font-family:Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif}.welcome_508c780f{text-align:center}.welcomeImage_508c780f{width:100%;max-width:420px}.links_508c780f a{text-decoration:none;color:\\\"[theme:link, default:#03787c]\\\";color:var(--link)}.links_508c780f a:hover{text-decoration:underline;color:\\\"[theme:linkHovered, default: #014446]\\\";color:var(--linkHovered)}\", \"\"]);\n"
+    },
+    {
+      "id": "yLpj",
+      "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\webpack\\buildin\\global.js",
+      "name": "(webpack)/buildin/global.js",
+      "index": 13,
+      "index2": 8,
+      "size": 472,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+      "issuerId": "ruv1",
+      "issuerName": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\SpFxTeamsTabWebPart.js",
+          "name": "./lib/webparts/spFxTeamsTab/SpFxTeamsTabWebPart.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.js",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.js"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.scss.js",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.scss.js"
+        },
+        {
+          "id": "OhSF",
+          "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\lib\\index.js??ref--4-0!D:\\host\\MySPFx\\Teams\\node_modules\\css-loader\\dist\\cjs.js!D:\\host\\MySPFx\\Teams\\node_modules\\postcss-loader\\src\\index.js??postcss!D:\\host\\MySPFx\\Teams\\lib\\webparts\\spFxTeamsTab\\components\\SpFxTeamsTab.module.css",
+          "name": "./lib/webparts/spFxTeamsTab/components/SpFxTeamsTab.module.css"
+        },
+        {
+          "id": "ruv1",
+          "identifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+          "name": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "ruv1",
+          "moduleIdentifier": "D:\\host\\MySPFx\\Teams\\node_modules\\@microsoft\\loader-load-themed-styles\\node_modules\\@microsoft\\load-themed-styles\\lib\\index.js",
+          "module": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+          "moduleName": "./node_modules/@microsoft/loader-load-themed-styles/node_modules/@microsoft/load-themed-styles/lib/index.js",
+          "type": "cjs require",
+          "userRequest": "global",
+          "loc": "1:0-56"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5,
+      "source": "var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn this;\n})();\n\ntry {\n\t// This works if eval is allowed (see CSP)\n\tg = g || new Function(\"return this\")();\n} catch (e) {\n\t// This works if the window reference is available\n\tif (typeof window === \"object\") g = window;\n}\n\n// g can still be undefined, but nothing to do about it...\n// We return undefined, instead of nothing here, so it's\n// easier to handle this case. if(!global) { ...}\n\nmodule.exports = g;\n"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}
