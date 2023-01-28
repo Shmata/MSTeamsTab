@@ -4,7 +4,10 @@
 
 Short summary on functionality and used technologies.
 
-[picture of the solution in action, if possible]
+[TeamsTab project preview](https://user-images.githubusercontent.com/2398297/215275680-fb9f0ded-c5bd-422f-8da2-85a4491b5b6e.png)
+
+## Solution file
+  the solution package is available in sharepoint\solution\teamstab.sppk
 
 ## Used SharePoint Framework Version
 
